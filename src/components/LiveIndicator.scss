@@ -1,0 +1,16 @@
+@import "../variables";
+
+.LiveIndicator {
+  width: 1px;
+  height: $line-height * 1.5 * 9 + $line-height;
+  position: absolute;
+  background-color: $accent;
+  z-index: 1;
+
+  header {
+    width: 3px;
+    background-color: $accent;
+    height: $line-height;
+    margin-left: -1px;
+  }
+}

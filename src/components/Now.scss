@@ -1,0 +1,15 @@
+@import "../variables";
+
+.Now {
+  color: $white;
+  position: fixed;
+  right: $padding-sizing;
+  bottom: $padding-sizing;
+  background-color: $accent;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: $gray;
+  width: $time-sizing/3;
+  height: $line-height;
+}

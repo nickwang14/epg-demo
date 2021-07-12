@@ -1,0 +1,26 @@
+@import "../variables";
+
+.DateTime {
+  font-size: xx-large;
+
+  .times > :first-child {
+    margin-left: $time-sizing/2;
+  }
+
+  .label {
+    text-align: center;
+    width: $time-sizing/2;
+
+    @extend %row-styles;
+    @extend %time-row-styles;
+  }
+
+  .time {
+    padding-left: $padding-sizing;
+    display: inline-block;
+    width: $time-sizing;
+
+    @extend %row-styles;
+    @extend %time-row-styles;
+  }
+}

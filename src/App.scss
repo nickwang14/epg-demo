@@ -1,0 +1,68 @@
+@import "variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  font-family: sans-serif;
+  background-color: $gray;
+  color: $white;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+aside {
+  position: absolute;
+  z-index: 2;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+// Typography
+a {
+  text-decoration: none;
+
+  :hover {
+    opacity: 50%;
+  }
+}
+
+header,
+footer,
+section,
+ul,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: $white;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.background {
+  background-image: linear-gradient($black, $gray);
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  overflow: scroll;
+  white-space: nowrap;
+  max-width: $max-container-width;
+  overflow-y: hidden;
+
+  @include breakpoint(mobile) {
+    max-width: $max-container-width-mobile;
+  }
+}

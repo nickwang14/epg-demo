@@ -1,0 +1,35 @@
+@import "../variables";
+
+.Program {
+  text-align: left;
+  display: inline-block;
+  padding: $padding-sizing;
+  border-width: 1px;
+  background-color: $black;
+
+  &.live {
+    background-color: $dark-gray;
+  }
+
+  &.ad {
+    background-color: $accent;
+    opacity: 30%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .liveTag {
+    color: $live;
+    font: medium;
+    text-transform: capitalize;
+  }
+
+  .title {
+    margin-bottom: $padding-sizing/2;
+  }
+
+  @extend %row-styles;
+}

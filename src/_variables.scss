@@ -1,0 +1,44 @@
+// Colors
+$black: #000;
+$white: #fff;
+$accent: #cf2506;
+$live: #8ce241;
+
+$light-gray: #808080;
+$gray: #404040;
+$dark-gray: #202020;
+
+// Sizes
+$max-container-width: 1500px;
+$max-container-width-mobile: 940px;
+
+$time-sizing: 400px;
+$line-height: 75px;
+$padding-sizing: 20px;
+
+// Font
+$header-font: 100px;
+$header-font-mobile: 45px;
+
+@mixin breakpoint($screen) {
+  @if $screen == mobile {
+    @media (max-width: 750px) {
+      @content;
+    }
+  }
+}
+
+%row-styles {
+  color: $light-gray;
+  height: $line-height * 1.5;
+  background-color: $dark-gray;
+  border: solid $gray;
+  border-width: 1px;
+}
+
+%time-row-styles {
+  color: $white;
+  height: $line-height;
+  padding-top: $line-height/4;
+  background-color: $dark-gray;
+}

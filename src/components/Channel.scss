@@ -1,0 +1,15 @@
+@import "../variables";
+
+.Channel {
+  .label {
+    width: $time-sizing/2;
+    text-align: center;
+    height: $line-height * 1.5;
+
+    @extend %row-styles;
+  }
+
+  .Programs > :first-child {
+    margin-left: $time-sizing/2;
+  }
+}

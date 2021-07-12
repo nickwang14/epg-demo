@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "rules": {
+    "indent": ["warn", 2],
+    "linebreak-style": ["warn", "unix"],
+    "no-irregular-whitespace": "error",
+    "eol-last": ["error", "always"]
+  },
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "react": {
+      "version": "default"
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
