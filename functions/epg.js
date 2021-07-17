@@ -1,1439 +1,2249 @@
-const json = JSON.stringify({ "channels":
-  [
+const json = JSON.stringify({
+  "channels": [
     {
-      "id": "ard",
-      "title": "Das Erste",
+      "id": "sky1",
+      "title": "Sky 1",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/ard@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_sky1.png"
       },
       "schedules": [
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "ARD-buffet2",
-          "start": 1482232500000,
-          "end": 1482235200000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:40:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Middagsmagasinet",
-          "start": 1482235200000,
-          "end": 1482238800000
+          "start": "2018-10-26T00:40:00+02:00",
+          "end": "2018-10-26T01:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482238800000,
-          "end": 1482239400000
+          "start": "2018-10-26T01:00:00+02:00",
+          "end": "2018-10-26T01:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Røde roser",
-          "start": 1482239400000,
-          "end": 1482242400000
+          "start": "2018-10-26T01:50:00+02:00",
+          "end": "2018-10-26T02:20:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482242400000,
-          "end": 1482243000000
+          "start": "2018-10-26T02:20:00+02:00",
+          "end": "2018-10-26T02:50:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Kærlighedens storm",
-          "start": 1482243000000,
-          "end": 1482246000000
+          "start": "2018-10-26T02:50:00+02:00",
+          "end": "2018-10-26T03:40:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482246000000,
-          "end": 1482246600000
+          "start": "2018-10-26T03:40:00+02:00",
+          "end": "2018-10-26T04:10:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Vild med havet",
-          "start": 1482246600000,
-          "end": 1482249600000
+          "start": "2018-10-26T04:10:00+02:00",
+          "end": "2018-10-26T04:30:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482249600000,
-          "end": 1482250500000
+          "start": "2018-10-26T04:30:00+02:00",
+          "end": "2018-10-26T04:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Brisant",
-          "start": 1482250500000,
-          "end": 1482253200000
+          "start": "2018-10-26T04:50:00+02:00",
+          "end": "2018-10-26T05:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Jagten på svarene",
-          "start": 1482253200000,
-          "end": 1482256200000
+          "start": "2018-10-26T05:40:00+02:00",
+          "end": "2018-10-26T06:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Mord i nord",
-          "start": 1482256200000,
-          "end": 1482259500000
+          "start": "2018-10-26T06:00:00+02:00",
+          "end": "2018-10-26T06:20:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Viden før otte - fremtid",
-          "start": 1482259500000,
-          "end": 1482259800000
+          "start": "2018-10-26T06:20:00+02:00",
+          "end": "2018-10-26T07:00:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Vejret før otte",
-          "start": 1482259800000,
-          "end": 1482260100000
+          "start": "2018-10-26T07:00:00+02:00",
+          "end": "2018-10-26T07:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Finans før otte",
-          "start": 1482260100000,
-          "end": 1482260400000
+          "start": "2018-10-26T07:50:00+02:00",
+          "end": "2018-10-26T08:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482260400000,
-          "end": 1482261300000
+          "start": "2018-10-26T08:40:00+02:00",
+          "end": "2018-10-26T09:00:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Pas på forbrugerfælderne!",
-          "start": 1482261300000,
-          "end": 1482264000000
+          "start": "2018-10-26T09:00:00+02:00",
+          "end": "2018-10-26T09:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Hård, men fair",
-          "start": 1482264000000,
-          "end": 1482268500000
+          "start": "2018-10-26T09:50:00+02:00",
+          "end": "2018-10-26T10:10:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482268500000,
-          "end": 1482270300000
+          "start": "2018-10-26T10:10:00+02:00",
+          "end": "2018-10-26T10:40:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Angela Merkel",
-          "start": 1482270300000,
-          "end": 1482189300000
+          "start": "2018-10-26T10:40:00+02:00",
+          "end": "2018-10-26T11:00:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482189300000,
-          "end": 1482190500000
+          "start": "2018-10-26T11:00:00+02:00",
+          "end": "2018-10-26T11:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Gerningsstedet",
-          "start": 1482190500000,
-          "end": 1482196080000
+          "start": "2018-10-26T11:20:00+02:00",
+          "end": "2018-10-26T11:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482196080000,
-          "end": 1482196200000
+          "start": "2018-10-26T11:40:00+02:00",
+          "end": "2018-10-26T12:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Hård, men fair",
-          "start": 1482196200000,
-          "end": 1482200700000
+          "start": "2018-10-26T12:20:00+02:00",
+          "end": "2018-10-26T12:50:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Brisant",
-          "start": 1482200700000,
-          "end": 1482202680000
+          "start": "2018-10-26T12:50:00+02:00",
+          "end": "2018-10-26T13:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482202680000,
-          "end": 1482202800000
+          "start": "2018-10-26T13:30:00+02:00",
+          "end": "2018-10-26T14:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Angela Merkel",
-          "start": 1482202800000,
-          "end": 1482208200000
+          "start": "2018-10-26T14:20:00+02:00",
+          "end": "2018-10-26T14:50:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Morgenmagasinet",
-          "start": 1482208200000,
-          "end": 1482220800000
+          "start": "2018-10-26T14:50:00+02:00",
+          "end": "2018-10-26T15:40:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:40:00+02:00",
+          "end": "2018-10-26T16:10:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:10:00+02:00",
+          "end": "2018-10-26T16:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:50:00+02:00",
+          "end": "2018-10-26T17:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:20:00+02:00",
+          "end": "2018-10-26T18:00:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:00:00+02:00",
+          "end": "2018-10-26T18:40:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:40:00+02:00",
+          "end": "2018-10-26T19:20:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:20:00+02:00",
+          "end": "2018-10-26T20:00:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:00:00+02:00",
+          "end": "2018-10-26T20:50:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:50:00+02:00",
+          "end": "2018-10-26T21:30:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:30:00+02:00",
+          "end": "2018-10-26T21:50:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:50:00+02:00",
+          "end": "2018-10-26T22:20:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:20:00+02:00",
+          "end": "2018-10-26T23:10:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T23:10:00+02:00",
+          "end": "2018-10-26T23:50:00+02:00"
         }
       ]
     },
     {
-      "id": "zdf",
-      "title": "ZDF",
+      "id": "silver",
+      "title": "Silver",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/zdf@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_silver.png"
       },
       "schedules": [
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Tyskland rundt",
-          "start": 1482232200000,
-          "end": 1482235200000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Middagsmagasinet",
-          "start": 1482235200000,
-          "end": 1482238800000
+          "start": "2018-10-26T00:20:00+02:00",
+          "end": "2018-10-26T01:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482238800000,
-          "end": 1482239700000
+          "start": "2018-10-26T01:00:00+02:00",
+          "end": "2018-10-26T01:50:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Kokkeduellen",
-          "start": 1482239700000,
-          "end": 1482242400000
+          "start": "2018-10-26T01:50:00+02:00",
+          "end": "2018-10-26T02:30:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482242400000,
-          "end": 1482242700000
+          "start": "2018-10-26T02:30:00+02:00",
+          "end": "2018-10-26T03:10:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Guld fra gemmerne",
-          "start": 1482242700000,
-          "end": 1482246000000
+          "start": "2018-10-26T03:10:00+02:00",
+          "end": "2018-10-26T04:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482246000000,
-          "end": 1482246600000
+          "start": "2018-10-26T04:00:00+02:00",
+          "end": "2018-10-26T04:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Politidistrikt Kitzbühel",
-          "start": 1482246600000,
-          "end": 1482249600000
+          "start": "2018-10-26T04:30:00+02:00",
+          "end": "2018-10-26T05:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482249600000,
-          "end": 1482250200000
+          "start": "2018-10-26T05:20:00+02:00",
+          "end": "2018-10-26T05:40:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Hallo, Tyskland!",
-          "start": 1482250200000,
-          "end": 1482252300000
+          "start": "2018-10-26T05:40:00+02:00",
+          "end": "2018-10-26T06:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Stjernedrys - nyt om de kendte",
-          "start": 1482252300000,
-          "end": 1482253200000
+          "start": "2018-10-26T06:10:00+02:00",
+          "end": "2018-10-26T06:40:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Politidistrikt München",
-          "start": 1482253200000,
-          "end": 1482256800000
+          "start": "2018-10-26T06:40:00+02:00",
+          "end": "2018-10-26T07:10:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482256800000,
-          "end": 1482258000000
+          "start": "2018-10-26T07:10:00+02:00",
+          "end": "2018-10-26T08:00:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Vejret",
-          "start": 1482258000000,
-          "end": 1482258300000
+          "start": "2018-10-26T08:00:00+02:00",
+          "end": "2018-10-26T08:30:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "WISO - nyt om økonomiske og sociale emner",
-          "start": 1482258300000,
-          "end": 1482261300000
+          "start": "2018-10-26T08:30:00+02:00",
+          "end": "2018-10-26T08:50:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Den kvindelige glaspuster",
-          "start": 1482261300000,
-          "end": 1482266700000
+          "start": "2018-10-26T08:50:00+02:00",
+          "end": "2018-10-26T09:10:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482266700000,
-          "end": 1482268500000
+          "start": "2018-10-26T09:10:00+02:00",
+          "end": "2018-10-26T10:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Red",
-          "start": 1482268500000,
-          "end": 1482274500000
+          "start": "2018-10-26T10:00:00+02:00",
+          "end": "2018-10-26T10:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Nyheder",
-          "start": 1482274500000,
-          "end": 1482189000000
+          "start": "2018-10-26T10:40:00+02:00",
+          "end": "2018-10-26T11:30:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Eksamen",
-          "start": 1482189000000,
-          "end": 1482194700000
+          "start": "2018-10-26T11:30:00+02:00",
+          "end": "2018-10-26T12:10:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "ZDF-historie",
-          "start": 1482194700000,
-          "end": 1482197400000
+          "start": "2018-10-26T12:10:00+02:00",
+          "end": "2018-10-26T12:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Politidistrikt München",
-          "start": 1482197400000,
-          "end": 1482200100000
+          "start": "2018-10-26T12:40:00+02:00",
+          "end": "2018-10-26T13:30:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "WISO - nyt om økonomiske og sociale emner",
-          "start": 1482200100000,
-          "end": 1482202800000
+          "start": "2018-10-26T13:30:00+02:00",
+          "end": "2018-10-26T14:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Politidistrikt Kitzbühel",
-          "start": 1482202800000,
-          "end": 1482205500000
+          "start": "2018-10-26T14:00:00+02:00",
+          "end": "2018-10-26T14:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Stjernedrys - nyt om de kendte",
-          "start": 1482205500000,
-          "end": 1482206100000
+          "start": "2018-10-26T14:40:00+02:00",
+          "end": "2018-10-26T15:30:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Hallo, Tyskland!",
-          "start": 1482206100000,
-          "end": 1482208200000
+          "start": "2018-10-26T15:30:00+02:00",
+          "end": "2018-10-26T15:50:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Morgenmagasinet",
-          "start": 1482208200000,
-          "end": 1482220800000
+          "start": "2018-10-26T15:50:00+02:00",
+          "end": "2018-10-26T16:30:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:30:00+02:00",
+          "end": "2018-10-26T17:20:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:20:00+02:00",
+          "end": "2018-10-26T17:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:50:00+02:00",
+          "end": "2018-10-26T18:30:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:30:00+02:00",
+          "end": "2018-10-26T19:20:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:20:00+02:00",
+          "end": "2018-10-26T20:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:10:00+02:00",
+          "end": "2018-10-26T20:50:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:50:00+02:00",
+          "end": "2018-10-26T21:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:20:00+02:00",
+          "end": "2018-10-26T22:00:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:00:00+02:00",
+          "end": "2018-10-26T22:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:20:00+02:00",
+          "end": "2018-10-26T22:50:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:50:00+02:00",
+          "end": "2018-10-26T23:40:00+02:00"
         }
       ]
     },
     {
-      "id": "eurosport-de",
-      "title": "Eurosport 1",
+      "id": "hbo",
+      "title": "HBO",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/eurosport-de@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_hbo.png"
       },
       "schedules": [
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Fodbold: Champions League-lodtrækning, direkte",
-          "start": 1482231600000,
-          "end": 1482233400000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Sportsugen, der gik",
-          "start": 1482233400000,
-          "end": 1482234300000
+          "start": "2018-10-26T00:40:00+02:00",
+          "end": "2018-10-26T01:00:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Sportsugen, der gik",
-          "start": 1482234300000,
-          "end": 1482235200000
+          "start": "2018-10-26T01:00:00+02:00",
+          "end": "2018-10-26T01:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Fodbold: Europa League-lodtrækning, direkte",
-          "start": 1482235200000,
-          "end": 1482237000000
+          "start": "2018-10-26T01:40:00+02:00",
+          "end": "2018-10-26T02:00:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Fodbold: Major League - højdepunkter",
-          "start": 1482237000000,
-          "end": 1482238800000
+          "start": "2018-10-26T02:00:00+02:00",
+          "end": "2018-10-26T02:20:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Billard: Snooker - Home Nations Series, direkte",
-          "start": 1482238800000,
-          "end": 1482255000000
+          "start": "2018-10-26T02:20:00+02:00",
+          "end": "2018-10-26T03:10:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Hestesportsmagasinet Horse Excellence",
-          "start": 1482255000000,
-          "end": 1482256500000
+          "start": "2018-10-26T03:10:00+02:00",
+          "end": "2018-10-26T03:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Eurosportnews",
-          "start": 1482256500000,
-          "end": 1482256800000
+          "start": "2018-10-26T03:30:00+02:00",
+          "end": "2018-10-26T03:50:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Skiskydning: World Cup - stafet (m)",
-          "start": 1482256800000,
-          "end": 1482260400000
+          "start": "2018-10-26T03:50:00+02:00",
+          "end": "2018-10-26T04:30:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Billard: Snooker - Home Nations Series, direkte",
-          "start": 1482260400000,
-          "end": 1482270900000
+          "start": "2018-10-26T04:30:00+02:00",
+          "end": "2018-10-26T05:20:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Eurosportnews",
-          "start": 1482270900000,
-          "end": 1482271200000
+          "start": "2018-10-26T05:20:00+02:00",
+          "end": "2018-10-26T06:00:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Fodbold: Toronto-Seattle",
-          "start": 1482271200000,
-          "end": 1482188400000
+          "start": "2018-10-26T06:00:00+02:00",
+          "end": "2018-10-26T06:20:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Fodbold: FIFA-magasinet",
-          "start": 1482188400000,
-          "end": 1482190200000
+          "start": "2018-10-26T06:20:00+02:00",
+          "end": "2018-10-26T06:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Fodbold: Major League - højdepunkter",
-          "start": 1482190200000,
-          "end": 1482192000000
+          "start": "2018-10-26T06:40:00+02:00",
+          "end": "2018-10-26T07:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Sportsugen, der gik",
-          "start": 1482192000000,
-          "end": 1482192900000
+          "start": "2018-10-26T07:20:00+02:00",
+          "end": "2018-10-26T07:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Sportsugen, der gik",
-          "start": 1482192900000,
-          "end": 1482193800000
+          "start": "2018-10-26T07:40:00+02:00",
+          "end": "2018-10-26T08:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Billard: Snooker - Home Nations Series",
-          "start": 1482193800000,
-          "end": 1482199200000
+          "start": "2018-10-26T08:30:00+02:00",
+          "end": "2018-10-26T09:00:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Cykling: 6-dagesløb",
-          "start": 1482199200000,
-          "end": 1482202800000
+          "start": "2018-10-26T09:00:00+02:00",
+          "end": "2018-10-26T09:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Kunstskøjteløb: Grand Prix-finale",
-          "start": 1482202800000,
-          "end": 1482206400000
+          "start": "2018-10-26T09:20:00+02:00",
+          "end": "2018-10-26T10:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Billard: Snooker - Home Nations Series",
-          "start": 1482206400000,
-          "end": 1482211800000
+          "start": "2018-10-26T10:00:00+02:00",
+          "end": "2018-10-26T10:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Fodbold: Toronto-Seattle",
-          "start": 1482211800000,
-          "end": 1482219000000
+          "start": "2018-10-26T10:20:00+02:00",
+          "end": "2018-10-26T10:40:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T10:40:00+02:00",
+          "end": "2018-10-26T11:10:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T11:10:00+02:00",
+          "end": "2018-10-26T12:00:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:00:00+02:00",
+          "end": "2018-10-26T12:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:20:00+02:00",
+          "end": "2018-10-26T13:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:10:00+02:00",
+          "end": "2018-10-26T14:00:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:00:00+02:00",
+          "end": "2018-10-26T14:50:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:50:00+02:00",
+          "end": "2018-10-26T15:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:20:00+02:00",
+          "end": "2018-10-26T15:40:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:40:00+02:00",
+          "end": "2018-10-26T16:10:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:10:00+02:00",
+          "end": "2018-10-26T16:30:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:30:00+02:00",
+          "end": "2018-10-26T17:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:20:00+02:00",
+          "end": "2018-10-26T17:40:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:40:00+02:00",
+          "end": "2018-10-26T18:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:20:00+02:00",
+          "end": "2018-10-26T19:10:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:10:00+02:00",
+          "end": "2018-10-26T19:30:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:30:00+02:00",
+          "end": "2018-10-26T20:00:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:00:00+02:00",
+          "end": "2018-10-26T20:30:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:30:00+02:00",
+          "end": "2018-10-26T21:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:10:00+02:00",
+          "end": "2018-10-26T21:50:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:50:00+02:00",
+          "end": "2018-10-26T22:40:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:40:00+02:00",
+          "end": "2018-10-26T23:20:00+02:00"
         }
       ]
     },
     {
-      "id": "pro7",
-      "title": "Pro Sieben",
+      "id": "cw",
+      "title": "The CW",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/pro7@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_cw.png"
       },
       "schedules": [
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "How I Met Your Mother",
-          "start": 1482233100000,
-          "end": 1482234600000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "How I Met Your Mother",
-          "start": 1482234600000,
-          "end": 1482236400000
+          "start": "2018-10-26T00:50:00+02:00",
+          "end": "2018-10-26T01:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482236400000,
-          "end": 1482238200000
+          "start": "2018-10-26T01:40:00+02:00",
+          "end": "2018-10-26T02:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482238200000,
-          "end": 1482239700000
+          "start": "2018-10-26T02:20:00+02:00",
+          "end": "2018-10-26T03:10:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482239700000,
-          "end": 1482241500000
+          "start": "2018-10-26T03:10:00+02:00",
+          "end": "2018-10-26T03:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482241500000,
-          "end": 1482243000000
+          "start": "2018-10-26T03:40:00+02:00",
+          "end": "2018-10-26T04:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482243000000,
-          "end": 1482244500000
+          "start": "2018-10-26T04:20:00+02:00",
+          "end": "2018-10-26T05:00:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482244500000,
-          "end": 1482246000000
+          "start": "2018-10-26T05:00:00+02:00",
+          "end": "2018-10-26T05:50:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482246000000,
-          "end": 1482247800000
+          "start": "2018-10-26T05:50:00+02:00",
+          "end": "2018-10-26T06:30:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482247800000,
-          "end": 1482249600000
+          "start": "2018-10-26T06:30:00+02:00",
+          "end": "2018-10-26T07:10:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "taff",
-          "start": 1482249600000,
-          "end": 1482253200000
+          "start": "2018-10-26T07:10:00+02:00",
+          "end": "2018-10-26T08:00:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "NEWSTIME",
-          "start": 1482253200000,
-          "end": 1482253800000
+          "start": "2018-10-26T08:00:00+02:00",
+          "end": "2018-10-26T08:30:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Die Simpsons",
-          "start": 1482253800000,
-          "end": 1482255600000
+          "start": "2018-10-26T08:30:00+02:00",
+          "end": "2018-10-26T09:10:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Die Simpsons",
-          "start": 1482255600000,
-          "end": 1482257100000
+          "start": "2018-10-26T09:10:00+02:00",
+          "end": "2018-10-26T09:50:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Galileo",
-          "start": 1482257100000,
-          "end": 1482261300000
+          "start": "2018-10-26T09:50:00+02:00",
+          "end": "2018-10-26T10:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482261300000,
-          "end": 1482262800000
+          "start": "2018-10-26T10:20:00+02:00",
+          "end": "2018-10-26T10:50:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482262800000,
-          "end": 1482264600000
+          "start": "2018-10-26T10:50:00+02:00",
+          "end": "2018-10-26T11:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482264600000,
-          "end": 1482266400000
+          "start": "2018-10-26T11:40:00+02:00",
+          "end": "2018-10-26T12:00:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482266400000,
-          "end": 1482268200000
+          "start": "2018-10-26T12:00:00+02:00",
+          "end": "2018-10-26T12:20:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "CIRCUS HALLIGALLI Weihnachts-Spezial",
-          "start": 1482268200000,
-          "end": 1482189300000
+          "start": "2018-10-26T12:20:00+02:00",
+          "end": "2018-10-26T12:40:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482189300000,
-          "end": 1482191100000
+          "start": "2018-10-26T12:40:00+02:00",
+          "end": "2018-10-26T13:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482191100000,
-          "end": 1482192600000
+          "start": "2018-10-26T13:20:00+02:00",
+          "end": "2018-10-26T13:40:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482192600000,
-          "end": 1482194100000
+          "start": "2018-10-26T13:40:00+02:00",
+          "end": "2018-10-26T14:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "The Big Bang Theory",
-          "start": 1482194100000,
-          "end": 1482195600000
+          "start": "2018-10-26T14:20:00+02:00",
+          "end": "2018-10-26T15:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Family Guy",
-          "start": 1482195600000,
-          "end": 1482197100000
+          "start": "2018-10-26T15:00:00+02:00",
+          "end": "2018-10-26T15:30:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Brickleberry",
-          "start": 1482197100000,
-          "end": 1482198300000
+          "start": "2018-10-26T15:30:00+02:00",
+          "end": "2018-10-26T16:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "ProSieben Spätnachrichten",
-          "start": 1482198300000,
-          "end": 1482198600000
+          "start": "2018-10-26T16:20:00+02:00",
+          "end": "2018-10-26T17:10:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "My Boys",
-          "start": 1482198600000,
-          "end": 1482199800000
+          "start": "2018-10-26T17:10:00+02:00",
+          "end": "2018-10-26T17:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "My Boys",
-          "start": 1482199800000,
-          "end": 1482201000000
+          "start": "2018-10-26T17:40:00+02:00",
+          "end": "2018-10-26T18:20:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Cougar Town",
-          "start": 1482201000000,
-          "end": 1482202500000
+          "start": "2018-10-26T18:20:00+02:00",
+          "end": "2018-10-26T19:10:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Malcolm mittendrin",
-          "start": 1482202500000,
-          "end": 1482203700000
+          "start": "2018-10-26T19:10:00+02:00",
+          "end": "2018-10-26T19:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Malcolm mittendrin",
-          "start": 1482203700000,
-          "end": 1482205200000
+          "start": "2018-10-26T19:50:00+02:00",
+          "end": "2018-10-26T20:30:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Scrubs - Die Anfänger",
-          "start": 1482205200000,
-          "end": 1482206400000
+          "start": "2018-10-26T20:30:00+02:00",
+          "end": "2018-10-26T20:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Mike & Molly",
-          "start": 1482206400000,
-          "end": 1482207300000
+          "start": "2018-10-26T20:50:00+02:00",
+          "end": "2018-10-26T21:40:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Mike & Molly",
-          "start": 1482207300000,
-          "end": 1482208500000
+          "start": "2018-10-26T21:40:00+02:00",
+          "end": "2018-10-26T22:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "How I Met Your Mother",
-          "start": 1482208500000,
-          "end": 1482209700000
+          "start": "2018-10-26T22:20:00+02:00",
+          "end": "2018-10-26T23:00:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "How I Met Your Mother",
-          "start": 1482209700000,
-          "end": 1482210900000
+          "start": "2018-10-26T23:00:00+02:00",
+          "end": "2018-10-26T23:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "How I Met Your Mother",
-          "start": 1482210900000,
-          "end": 1482212700000
-        },
-        {
-          "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482212700000,
-          "end": 1482214500000
-        },
-        {
-          "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482214500000,
-          "end": 1482216000000
-        },
-        {
-          "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482216000000,
-          "end": 1482217800000
-        },
-        {
-          "id": "dummy_program_id",
-          "title": "Two and a Half Men",
-          "start": 1482217800000,
-          "end": 1482219300000
+          "start": "2018-10-26T23:20:00+02:00",
+          "end": "2018-10-26T23:40:00+02:00"
         }
       ]
     },
     {
-      "id": "arte-hd",
-      "title": "Arte HD",
+      "id": "vox",
+      "title": "Vox",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/arte-hd@logo.jpg"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_vox.png"
       },
       "schedules": [
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "360°-GEO",
-          "start": 1482231000000,
-          "end": 1482233700000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "360°-GEO",
-          "start": 1482233700000,
-          "end": 1482236400000
+          "start": "2018-10-26T00:50:00+02:00",
+          "end": "2018-10-26T01:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Arte journal",
-          "start": 1482236400000,
-          "end": 1482237300000
+          "start": "2018-10-26T01:20:00+02:00",
+          "end": "2018-10-26T02:00:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "La chambre bleue",
-          "start": 1482237300000,
-          "end": 1482241500000
+          "start": "2018-10-26T02:00:00+02:00",
+          "end": "2018-10-26T02:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "A comme «aardvark»",
-          "start": 1482241500000,
-          "end": 1482244200000
+          "start": "2018-10-26T02:20:00+02:00",
+          "end": "2018-10-26T02:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Raspoutine",
-          "start": 1482244200000,
-          "end": 1482247500000
+          "start": "2018-10-26T02:40:00+02:00",
+          "end": "2018-10-26T03:30:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "A la recherche du trésor des Romanov",
-          "start": 1482247500000,
-          "end": 1482250800000
+          "start": "2018-10-26T03:30:00+02:00",
+          "end": "2018-10-26T04:10:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "X:enius",
-          "start": 1482250800000,
-          "end": 1482252300000
+          "start": "2018-10-26T04:10:00+02:00",
+          "end": "2018-10-26T04:30:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Repas de fête",
-          "start": 1482252300000,
-          "end": 1482254100000
+          "start": "2018-10-26T04:30:00+02:00",
+          "end": "2018-10-26T05:10:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Oasis urbaines",
-          "start": 1482254100000,
-          "end": 1482256800000
+          "start": "2018-10-26T05:10:00+02:00",
+          "end": "2018-10-26T05:30:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Oiseaux migrateurs",
-          "start": 1482256800000,
-          "end": 1482259500000
+          "start": "2018-10-26T05:30:00+02:00",
+          "end": "2018-10-26T06:00:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Arte journal",
-          "start": 1482259500000,
-          "end": 1482260700000
+          "start": "2018-10-26T06:00:00+02:00",
+          "end": "2018-10-26T06:30:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "28 minutes",
-          "start": 1482260700000,
-          "end": 1482263100000
+          "start": "2018-10-26T06:30:00+02:00",
+          "end": "2018-10-26T07:20:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Tu mourras moins bête",
-          "start": 1482263100000,
-          "end": 1482263400000
+          "start": "2018-10-26T07:20:00+02:00",
+          "end": "2018-10-26T07:50:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Rocco et ses frères",
-          "start": 1482263400000,
-          "end": 1482273900000
+          "start": "2018-10-26T07:50:00+02:00",
+          "end": "2018-10-26T08:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Alain Delon, cet inconnu",
-          "start": 1482273900000,
-          "end": 1482192900000
+          "start": "2018-10-26T08:30:00+02:00",
+          "end": "2018-10-26T09:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Trois quarts de lune",
-          "start": 1482192900000,
-          "end": 1482198300000
+          "start": "2018-10-26T09:00:00+02:00",
+          "end": "2018-10-26T09:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Tom à la ferme",
-          "start": 1482198300000,
-          "end": 1482204300000
+          "start": "2018-10-26T09:40:00+02:00",
+          "end": "2018-10-26T10:00:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Fin des programmes",
-          "start": 1482204300000,
-          "end": 1482207600000
+          "start": "2018-10-26T10:00:00+02:00",
+          "end": "2018-10-26T10:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Rolando Villazón présente les stars de demain",
-          "start": 1482207600000,
-          "end": 1482210300000
+          "start": "2018-10-26T10:40:00+02:00",
+          "end": "2018-10-26T11:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Vox pop",
-          "start": 1482210300000,
-          "end": 1482212100000
+          "start": "2018-10-26T11:10:00+02:00",
+          "end": "2018-10-26T11:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Yourope",
-          "start": 1482212100000,
-          "end": 1482213600000
+          "start": "2018-10-26T11:50:00+02:00",
+          "end": "2018-10-26T12:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Points de repères",
-          "start": 1482213600000,
-          "end": 1482215100000
+          "start": "2018-10-26T12:40:00+02:00",
+          "end": "2018-10-26T13:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Ratatat",
-          "start": 1482215100000,
-          "end": 1482215700000
+          "start": "2018-10-26T13:20:00+02:00",
+          "end": "2018-10-26T14:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Arte journal junior",
-          "start": 1482215700000,
-          "end": 1482216300000
+          "start": "2018-10-26T14:00:00+02:00",
+          "end": "2018-10-26T14:20:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Nobles demeures de Toscane",
-          "start": 1482216300000,
-          "end": 1482219000000
+          "start": "2018-10-26T14:20:00+02:00",
+          "end": "2018-10-26T15:00:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:00:00+02:00",
+          "end": "2018-10-26T15:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:20:00+02:00",
+          "end": "2018-10-26T16:00:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:00:00+02:00",
+          "end": "2018-10-26T16:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:20:00+02:00",
+          "end": "2018-10-26T16:50:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:50:00+02:00",
+          "end": "2018-10-26T17:20:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:20:00+02:00",
+          "end": "2018-10-26T17:40:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:40:00+02:00",
+          "end": "2018-10-26T18:00:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:00:00+02:00",
+          "end": "2018-10-26T18:30:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:30:00+02:00",
+          "end": "2018-10-26T19:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:20:00+02:00",
+          "end": "2018-10-26T19:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:50:00+02:00",
+          "end": "2018-10-26T20:40:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:40:00+02:00",
+          "end": "2018-10-26T21:20:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:20:00+02:00",
+          "end": "2018-10-26T22:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:10:00+02:00",
+          "end": "2018-10-26T23:00:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T23:00:00+02:00",
+          "end": "2018-10-26T23:40:00+02:00"
         }
       ]
     },
     {
-      "id": "antena3",
-      "title": "Antena 3",
+      "id": "history",
+      "title": "History",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/antena3@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_history.png"
       },
       "schedules": [
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Karlos Arguiñano en tu cocina",
-          "start": 1482232800000,
-          "end": 1482234300000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:20:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "La ruleta de la suerte",
-          "start": 1482234300000,
-          "end": 1482238800000
+          "start": "2018-10-26T00:20:00+02:00",
+          "end": "2018-10-26T01:00:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Los Simpson",
-          "start": 1482238800000,
-          "end": 1482240600000
+          "start": "2018-10-26T01:00:00+02:00",
+          "end": "2018-10-26T01:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Los Simpson",
-          "start": 1482240600000,
-          "end": 1482242400000
+          "start": "2018-10-26T01:20:00+02:00",
+          "end": "2018-10-26T02:10:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Antena 3 Noticias 1",
-          "start": 1482242400000,
-          "end": 1482245100000
+          "start": "2018-10-26T02:10:00+02:00",
+          "end": "2018-10-26T03:00:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Deportes",
-          "start": 1482245100000,
-          "end": 1482246000000
+          "start": "2018-10-26T03:00:00+02:00",
+          "end": "2018-10-26T03:30:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Tu tiempo con Roberto Brasero",
-          "start": 1482246000000,
-          "end": 1482247800000
+          "start": "2018-10-26T03:30:00+02:00",
+          "end": "2018-10-26T04:10:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Amar es para siempre",
-          "start": 1482247800000,
-          "end": 1482251400000
+          "start": "2018-10-26T04:10:00+02:00",
+          "end": "2018-10-26T05:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "El secreto de Puente Viejo",
-          "start": 1482251400000,
-          "end": 1482255900000
+          "start": "2018-10-26T05:00:00+02:00",
+          "end": "2018-10-26T05:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "¡Ahora caigo!",
-          "start": 1482255900000,
-          "end": 1482260400000
+          "start": "2018-10-26T05:50:00+02:00",
+          "end": "2018-10-26T06:10:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "¡Boom!",
-          "start": 1482260400000,
-          "end": 1482264000000
+          "start": "2018-10-26T06:10:00+02:00",
+          "end": "2018-10-26T06:30:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Antena 3 Noticias 2",
-          "start": 1482264000000,
-          "end": 1482265800000
+          "start": "2018-10-26T06:30:00+02:00",
+          "end": "2018-10-26T06:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Deportes",
-          "start": 1482265800000,
-          "end": 1482266400000
+          "start": "2018-10-26T06:50:00+02:00",
+          "end": "2018-10-26T07:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "La previsión de las 9",
-          "start": 1482266400000,
-          "end": 1482266700000
+          "start": "2018-10-26T07:20:00+02:00",
+          "end": "2018-10-26T08:10:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "El hormiguero 3.0",
-          "start": 1482266700000,
-          "end": 1482270000000
+          "start": "2018-10-26T08:10:00+02:00",
+          "end": "2018-10-26T09:00:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Mar de plástico",
-          "start": 1482270000000,
-          "end": 1482192000000
+          "start": "2018-10-26T09:00:00+02:00",
+          "end": "2018-10-26T09:30:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Pasión peligrosa",
-          "start": 1482192000000,
-          "end": 1482197400000
+          "start": "2018-10-26T09:30:00+02:00",
+          "end": "2018-10-26T10:20:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Comprando en casa",
-          "start": 1482197400000,
-          "end": 1482199200000
+          "start": "2018-10-26T10:20:00+02:00",
+          "end": "2018-10-26T10:50:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Minutos musicales",
-          "start": 1482199200000,
-          "end": 1482210000000
+          "start": "2018-10-26T10:50:00+02:00",
+          "end": "2018-10-26T11:20:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Minutos musicales",
-          "start": 1482210000000,
-          "end": 1482210900000
+          "start": "2018-10-26T11:20:00+02:00",
+          "end": "2018-10-26T11:40:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Las noticias de la mañana",
-          "start": 1482210900000,
-          "end": 1482219000000
+          "start": "2018-10-26T11:40:00+02:00",
+          "end": "2018-10-26T12:30:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:30:00+02:00",
+          "end": "2018-10-26T13:20:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:20:00+02:00",
+          "end": "2018-10-26T14:00:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:00:00+02:00",
+          "end": "2018-10-26T14:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:20:00+02:00",
+          "end": "2018-10-26T14:50:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:50:00+02:00",
+          "end": "2018-10-26T15:10:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:10:00+02:00",
+          "end": "2018-10-26T16:00:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:00:00+02:00",
+          "end": "2018-10-26T16:40:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:40:00+02:00",
+          "end": "2018-10-26T17:00:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:00:00+02:00",
+          "end": "2018-10-26T17:30:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:30:00+02:00",
+          "end": "2018-10-26T17:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:50:00+02:00",
+          "end": "2018-10-26T18:10:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:10:00+02:00",
+          "end": "2018-10-26T18:50:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:50:00+02:00",
+          "end": "2018-10-26T19:40:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:40:00+02:00",
+          "end": "2018-10-26T20:20:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:20:00+02:00",
+          "end": "2018-10-26T21:10:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:10:00+02:00",
+          "end": "2018-10-26T21:50:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:50:00+02:00",
+          "end": "2018-10-26T22:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:10:00+02:00",
+          "end": "2018-10-26T23:00:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T23:00:00+02:00",
+          "end": "2018-10-26T23:30:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T23:30:00+02:00",
+          "end": "2018-10-26T23:50:00+02:00"
         }
       ]
     },
     {
-      "id": "lasexta",
-      "title": "La Sexta",
+      "id": "sixx",
+      "title": "Sixx",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/lasexta@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_sixx.png"
       },
       "schedules": [
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Al Rojo Vivo",
-          "start": 1482232500000,
-          "end": 1482238800000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:50:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "laSexta Noticias: 1ª edición",
-          "start": 1482238800000,
-          "end": 1482242100000
+          "start": "2018-10-26T00:50:00+02:00",
+          "end": "2018-10-26T01:40:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Jugones",
-          "start": 1482242100000,
-          "end": 1482243600000
+          "start": "2018-10-26T01:40:00+02:00",
+          "end": "2018-10-26T02:10:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Jugones",
-          "start": 1482243600000,
-          "end": 1482244200000
+          "start": "2018-10-26T02:10:00+02:00",
+          "end": "2018-10-26T02:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "laSexta Meteo",
-          "start": 1482244200000,
-          "end": 1482245100000
+          "start": "2018-10-26T02:30:00+02:00",
+          "end": "2018-10-26T03:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Zapeando",
-          "start": 1482245100000,
-          "end": 1482250500000
+          "start": "2018-10-26T03:10:00+02:00",
+          "end": "2018-10-26T03:50:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Más vale tarde",
-          "start": 1482250500000,
-          "end": 1482260400000
+          "start": "2018-10-26T03:50:00+02:00",
+          "end": "2018-10-26T04:30:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "laSexta Noticias: 2ª edición",
-          "start": 1482260400000,
-          "end": 1482263100000
+          "start": "2018-10-26T04:30:00+02:00",
+          "end": "2018-10-26T05:00:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "laSexta Meteo",
-          "start": 1482263100000,
-          "end": 1482264000000
+          "start": "2018-10-26T05:00:00+02:00",
+          "end": "2018-10-26T05:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "laSexta Deportes",
-          "start": 1482264000000,
-          "end": 1482265800000
+          "start": "2018-10-26T05:40:00+02:00",
+          "end": "2018-10-26T06:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "El intermedio",
-          "start": 1482265800000,
-          "end": 1482269400000
+          "start": "2018-10-26T06:10:00+02:00",
+          "end": "2018-10-26T06:40:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Shutter Island",
-          "start": 1482269400000,
-          "end": 1482192000000
+          "start": "2018-10-26T06:40:00+02:00",
+          "end": "2018-10-26T07:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Making of",
-          "start": 1482192000000,
-          "end": 1482193800000
+          "start": "2018-10-26T07:20:00+02:00",
+          "end": "2018-10-26T07:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Crímenes imperfectos",
-          "start": 1482193800000,
-          "end": 1482198300000
+          "start": "2018-10-26T07:40:00+02:00",
+          "end": "2018-10-26T08:20:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Poker Caribbean Adventure",
-          "start": 1482198300000,
-          "end": 1482199800000
+          "start": "2018-10-26T08:20:00+02:00",
+          "end": "2018-10-26T08:50:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Comprando en casa",
-          "start": 1482199800000,
-          "end": 1482203400000
+          "start": "2018-10-26T08:50:00+02:00",
+          "end": "2018-10-26T09:10:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Canal bingo",
-          "start": 1482203400000,
-          "end": 1482204000000
+          "start": "2018-10-26T09:10:00+02:00",
+          "end": "2018-10-26T09:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Minutos musicales",
-          "start": 1482204000000,
-          "end": 1482210000000
+          "start": "2018-10-26T09:40:00+02:00",
+          "end": "2018-10-26T10:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Minutos musicales",
-          "start": 1482210000000,
-          "end": 1482214500000
+          "start": "2018-10-26T10:30:00+02:00",
+          "end": "2018-10-26T11:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "¿Quién vive ahí?",
-          "start": 1482214500000,
-          "end": 1482217800000
+          "start": "2018-10-26T11:20:00+02:00",
+          "end": "2018-10-26T11:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "¿Quién vive ahí?",
-          "start": 1482217800000,
-          "end": 1482221100000
+          "start": "2018-10-26T11:50:00+02:00",
+          "end": "2018-10-26T12:40:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:40:00+02:00",
+          "end": "2018-10-26T13:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:20:00+02:00",
+          "end": "2018-10-26T14:00:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:00:00+02:00",
+          "end": "2018-10-26T14:50:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:50:00+02:00",
+          "end": "2018-10-26T15:10:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:10:00+02:00",
+          "end": "2018-10-26T15:50:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:50:00+02:00",
+          "end": "2018-10-26T16:30:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:30:00+02:00",
+          "end": "2018-10-26T17:20:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:20:00+02:00",
+          "end": "2018-10-26T17:40:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:40:00+02:00",
+          "end": "2018-10-26T18:30:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:30:00+02:00",
+          "end": "2018-10-26T18:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:50:00+02:00",
+          "end": "2018-10-26T19:40:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:40:00+02:00",
+          "end": "2018-10-26T20:20:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:20:00+02:00",
+          "end": "2018-10-26T20:40:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:40:00+02:00",
+          "end": "2018-10-26T21:30:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:30:00+02:00",
+          "end": "2018-10-26T22:00:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:00:00+02:00",
+          "end": "2018-10-26T22:30:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:30:00+02:00",
+          "end": "2018-10-26T23:20:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T23:20:00+02:00",
+          "end": "2018-10-26T23:40:00+02:00"
         }
       ]
     },
     {
-      "id": "24h",
-      "title": "24h",
+      "id": "tv2norway",
+      "title": "TV 2 Norway",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/24h@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_tv2.png"
       },
       "schedules": [
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "La mañana en 24H",
-          "start": 1482224400000,
-          "end": 1482242400000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:30:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Telediario",
-          "start": 1482242400000,
-          "end": 1482246000000
+          "start": "2018-10-26T00:30:00+02:00",
+          "end": "2018-10-26T01:10:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Agrosfera",
-          "start": 1482246000000,
-          "end": 1482247800000
+          "start": "2018-10-26T01:10:00+02:00",
+          "end": "2018-10-26T02:00:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "España en 24 Horas",
-          "start": 1482247800000,
-          "end": 1482249600000
+          "start": "2018-10-26T02:00:00+02:00",
+          "end": "2018-10-26T02:30:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "La tarde en 24H",
-          "start": 1482249600000,
-          "end": 1482262200000
+          "start": "2018-10-26T02:30:00+02:00",
+          "end": "2018-10-26T02:50:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Teleplaneta",
-          "start": 1482262200000,
-          "end": 1482264000000
+          "start": "2018-10-26T02:50:00+02:00",
+          "end": "2018-10-26T03:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Telediario 2ª edición",
-          "start": 1482264000000,
-          "end": 1482267600000
+          "start": "2018-10-26T03:10:00+02:00",
+          "end": "2018-10-26T03:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Zoom net",
-          "start": 1482267600000,
-          "end": 1482269400000
+          "start": "2018-10-26T03:40:00+02:00",
+          "end": "2018-10-26T04:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "La noche en 24 horas",
-          "start": 1482269400000,
-          "end": 1482190200000
+          "start": "2018-10-26T04:20:00+02:00",
+          "end": "2018-10-26T04:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "La tarde en 24H",
-          "start": 1482190200000,
-          "end": 1482192000000
+          "start": "2018-10-26T04:40:00+02:00",
+          "end": "2018-10-26T05:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Noticias 24H",
-          "start": 1482192000000,
-          "end": 1482193800000
+          "start": "2018-10-26T05:10:00+02:00",
+          "end": "2018-10-26T05:50:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "La 2 Noticias",
-          "start": 1482193800000,
-          "end": 1482195600000
+          "start": "2018-10-26T05:50:00+02:00",
+          "end": "2018-10-26T06:10:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Telediario Internacional",
-          "start": 1482195600000,
-          "end": 1482197400000
+          "start": "2018-10-26T06:10:00+02:00",
+          "end": "2018-10-26T06:40:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Noticias 24H",
-          "start": 1482197400000,
-          "end": 1482199200000
+          "start": "2018-10-26T06:40:00+02:00",
+          "end": "2018-10-26T07:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Telediario Internacional",
-          "start": 1482199200000,
-          "end": 1482201000000
+          "start": "2018-10-26T07:20:00+02:00",
+          "end": "2018-10-26T08:10:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Noticias 24H",
-          "start": 1482201000000,
-          "end": 1482202800000
+          "start": "2018-10-26T08:10:00+02:00",
+          "end": "2018-10-26T08:50:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Telediario Internacional",
-          "start": 1482202800000,
-          "end": 1482204600000
+          "start": "2018-10-26T08:50:00+02:00",
+          "end": "2018-10-26T09:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Noticias 24H",
-          "start": 1482204600000,
-          "end": 1482206400000
+          "start": "2018-10-26T09:20:00+02:00",
+          "end": "2018-10-26T09:50:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Agrosfera",
-          "start": 1482206400000,
-          "end": 1482210000000
+          "start": "2018-10-26T09:50:00+02:00",
+          "end": "2018-10-26T10:40:00+02:00"
         },
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "Noticias 24H",
-          "start": 1482210000000,
-          "end": 1482211800000
+          "start": "2018-10-26T10:40:00+02:00",
+          "end": "2018-10-26T11:20:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Telediario Matinal",
-          "start": 1482211800000,
-          "end": 1482219000000
+          "start": "2018-10-26T11:20:00+02:00",
+          "end": "2018-10-26T12:10:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:10:00+02:00",
+          "end": "2018-10-26T12:30:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:30:00+02:00",
+          "end": "2018-10-26T13:10:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:10:00+02:00",
+          "end": "2018-10-26T13:50:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:50:00+02:00",
+          "end": "2018-10-26T14:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:10:00+02:00",
+          "end": "2018-10-26T14:30:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:30:00+02:00",
+          "end": "2018-10-26T15:10:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:10:00+02:00",
+          "end": "2018-10-26T16:00:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:00:00+02:00",
+          "end": "2018-10-26T16:30:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:30:00+02:00",
+          "end": "2018-10-26T17:00:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:00:00+02:00",
+          "end": "2018-10-26T17:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:50:00+02:00",
+          "end": "2018-10-26T18:40:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:40:00+02:00",
+          "end": "2018-10-26T19:20:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:20:00+02:00",
+          "end": "2018-10-26T20:10:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:10:00+02:00",
+          "end": "2018-10-26T21:00:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:00:00+02:00",
+          "end": "2018-10-26T21:40:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:40:00+02:00",
+          "end": "2018-10-26T22:10:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:10:00+02:00",
+          "end": "2018-10-26T22:30:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:30:00+02:00",
+          "end": "2018-10-26T23:20:00+02:00"
         }
       ]
     },
     {
-      "id": "a3series",
-      "title": "A3 Series",
+      "id": "channel5",
+      "title": "Channel 5",
       "images": {
-        "LOGO": "https://demo-test.noriginmedia.com/a3series@logo.png"
+        "logo": "https://img.noriginmedia.com/cloudberry/logo_channel5.png"
       },
       "schedules": [
         {
+          "title": "Game of Thrones",
           "id": "dummy_program_id",
-          "title": "El síndrome de Ulises",
-          "start": 1482231600000,
-          "end": 1482238200000
+          "start": "2018-10-26T00:00:00+02:00",
+          "end": "2018-10-26T00:50:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Ley y orden",
-          "start": 1482238200000,
-          "end": 1482241500000
+          "start": "2018-10-26T00:50:00+02:00",
+          "end": "2018-10-26T01:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Bones",
-          "start": 1482241500000,
-          "end": 1482246480000
+          "start": "2018-10-26T01:20:00+02:00",
+          "end": "2018-10-26T01:40:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Bones",
-          "start": 1482246480000,
-          "end": 1482247800000
+          "start": "2018-10-26T01:40:00+02:00",
+          "end": "2018-10-26T02:20:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "El mentalista",
-          "start": 1482247800000,
-          "end": 1482250800000
+          "start": "2018-10-26T02:20:00+02:00",
+          "end": "2018-10-26T02:40:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "Más de series",
-          "start": 1482250800000,
-          "end": 1482251100000
+          "start": "2018-10-26T02:40:00+02:00",
+          "end": "2018-10-26T03:30:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Se ha escrito un crimen",
-          "start": 1482251100000,
-          "end": 1482264000000
+          "start": "2018-10-26T03:30:00+02:00",
+          "end": "2018-10-26T03:50:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Allí abajo",
-          "start": 1482264000000,
-          "end": 1482269400000
+          "start": "2018-10-26T03:50:00+02:00",
+          "end": "2018-10-26T04:10:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Fiscal Chase",
-          "start": 1482269400000,
-          "end": 1482272580000
+          "start": "2018-10-26T04:10:00+02:00",
+          "end": "2018-10-26T04:30:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "Fiscal Chase",
-          "start": 1482272580000,
-          "end": 1482189300000
+          "start": "2018-10-26T04:30:00+02:00",
+          "end": "2018-10-26T05:00:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Mar de plástico: Tercer grado",
-          "start": 1482189300000,
-          "end": 1482192000000
+          "start": "2018-10-26T05:00:00+02:00",
+          "end": "2018-10-26T05:30:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "Aquí no hay quien viva",
-          "start": 1482192000000,
-          "end": 1482203700000
+          "start": "2018-10-26T05:30:00+02:00",
+          "end": "2018-10-26T06:00:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "Star Wars: The Clone Wars",
-          "start": 1482203700000,
-          "end": 1482206100000
+          "start": "2018-10-26T06:00:00+02:00",
+          "end": "2018-10-26T06:20:00+02:00"
         },
         {
+          "title": "Cool Stuff",
           "id": "dummy_program_id",
-          "title": "Más de series",
-          "start": 1482206100000,
-          "end": 1482210000000
+          "start": "2018-10-26T06:20:00+02:00",
+          "end": "2018-10-26T06:40:00+02:00"
         },
         {
+          "title": "Interesting Show",
           "id": "dummy_program_id",
-          "title": "La familia Mata",
-          "start": 1482210000000,
-          "end": 1482214800000
+          "start": "2018-10-26T06:40:00+02:00",
+          "end": "2018-10-26T07:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "La tira",
-          "start": 1482214800000,
-          "end": 1482216780000
+          "start": "2018-10-26T07:00:00+02:00",
+          "end": "2018-10-26T07:20:00+02:00"
         },
         {
+          "title": "Supernatural",
           "id": "dummy_program_id",
-          "title": "La tira",
-          "start": 1482216780000,
-          "end": 1482217560000
+          "start": "2018-10-26T07:20:00+02:00",
+          "end": "2018-10-26T08:10:00+02:00"
         },
         {
+          "title": "Vikings",
           "id": "dummy_program_id",
-          "title": "La tira",
-          "start": 1482217560000,
-          "end": 1482218340000
+          "start": "2018-10-26T08:10:00+02:00",
+          "end": "2018-10-26T09:00:00+02:00"
         },
         {
+          "title": "Awesome Program",
           "id": "dummy_program_id",
-          "title": "La tira",
-          "start": 1482218340000,
-          "end": 1482219120000
+          "start": "2018-10-26T09:00:00+02:00",
+          "end": "2018-10-26T09:50:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T09:50:00+02:00",
+          "end": "2018-10-26T10:30:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T10:30:00+02:00",
+          "end": "2018-10-26T11:20:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T11:20:00+02:00",
+          "end": "2018-10-26T12:00:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:00:00+02:00",
+          "end": "2018-10-26T12:40:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T12:40:00+02:00",
+          "end": "2018-10-26T13:20:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:20:00+02:00",
+          "end": "2018-10-26T13:50:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T13:50:00+02:00",
+          "end": "2018-10-26T14:10:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T14:10:00+02:00",
+          "end": "2018-10-26T15:00:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:00:00+02:00",
+          "end": "2018-10-26T15:30:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:30:00+02:00",
+          "end": "2018-10-26T15:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T15:50:00+02:00",
+          "end": "2018-10-26T16:40:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T16:40:00+02:00",
+          "end": "2018-10-26T17:10:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:10:00+02:00",
+          "end": "2018-10-26T17:50:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T17:50:00+02:00",
+          "end": "2018-10-26T18:30:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:30:00+02:00",
+          "end": "2018-10-26T18:50:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T18:50:00+02:00",
+          "end": "2018-10-26T19:30:00+02:00"
+        },
+        {
+          "title": "Game of Thrones",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T19:30:00+02:00",
+          "end": "2018-10-26T20:10:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T20:10:00+02:00",
+          "end": "2018-10-26T21:00:00+02:00"
+        },
+        {
+          "title": "Cool Stuff",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:00:00+02:00",
+          "end": "2018-10-26T21:40:00+02:00"
+        },
+        {
+          "title": "Awesome Program",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T21:40:00+02:00",
+          "end": "2018-10-26T22:20:00+02:00"
+        },
+        {
+          "title": "Supernatural",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:20:00+02:00",
+          "end": "2018-10-26T22:40:00+02:00"
+        },
+        {
+          "title": "Vikings",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T22:40:00+02:00",
+          "end": "2018-10-26T23:10:00+02:00"
+        },
+        {
+          "title": "Interesting Show",
+          "id": "dummy_program_id",
+          "start": "2018-10-26T23:10:00+02:00",
+          "end": "2018-10-26T23:50:00+02:00"
         }
       ]
     }

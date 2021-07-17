@@ -1,6 +1,11 @@
 ### NickWang14 Electronic Program Guide
 
-[Project Github](https://github.com/nickwang14/epg-demo)
+This was a candidate tester for Norigin Media
+[Github Project](https://github.com/nickwang14/epg-demo)
+
+You can find my site [Live Site](https://mockepg.netlify.app/) for a random dataset demo.
+
+![Example Image](./epg-demo.png)
 
 ## 🚀 Run this project:
 
