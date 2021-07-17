@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors",
-    "start": "concurrently \"npm run start:mock-api\" \"react-scripts start\"",
+    "start:nm": "concurrently \"npm run start:mock-api\" \"react-scripts start\"",
+    "start": "react-scripts start",
     "build": "react-scripts build"
   },
   "author": "Nick Wang",
@@ -47,5 +48,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:1337"
+  "proxy": "http://localhost:8888"
 }

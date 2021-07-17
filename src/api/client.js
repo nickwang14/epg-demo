@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const getPrograms = async () => {
   console.log('Fetching Data')
-  return await axios.get(`/epg`)
+  return await axios.get(`/api/epg`)
     .then(parseJSON)
 }
 
