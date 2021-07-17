@@ -5,6 +5,7 @@
     width: $time-sizing/2;
     text-align: center;
     height: $line-height * 1.5;
+    position: fixed;
 
     @extend %row-styles;
   }

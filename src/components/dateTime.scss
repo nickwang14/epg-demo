@@ -10,6 +10,7 @@
   .label {
     text-align: center;
     width: $time-sizing/2;
+    position: fixed;
 
     @extend %row-styles;
     @extend %time-row-styles;
